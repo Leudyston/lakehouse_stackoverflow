@@ -1,0 +1,135 @@
+[
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.GPP.CentroTrabalho",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "GPP",
+            "tabela_origem": "CentroTrabalho",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": false
+    },
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.PCP.ProgramacaoCentroTrabalho",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "PCP",
+            "tabela_origem": "ProgramacaoCentroTrabalho",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": true
+    },
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.PCP.ProgramacaoParada",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "PCP",
+            "tabela_origem": "ProgramacaoParada",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": true
+    },
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.PCP.TurnoTurmaCalendarioCentroTrabalho",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "PCP",
+            "tabela_origem": "TurnoTurmaCalendarioCentroTrabalho",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": true
+    },
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.GPP.Parada",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "GPP",
+            "tabela_origem": "Parada",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": true
+    },
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.GPP.ArvoreParada",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "GPP",
+            "tabela_origem": "ArvoreParada",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": true
+    },
+    {
+        "etapa": "RB",
+        "dataset": "ds_gpp_sinobras",
+        "chave_entidade": "sql_server.sinobras.GPP_HOM.GPP.ArvoreParada",
+        "parametro":
+        {
+            "container_destino": "raw",
+            "diretorio_destino": "sql_server/sinobras",
+            "formato_data_particao": "D",
+            "tipo_carga": "F",
+            "database_origem": "GPP_HOM",
+            "esquema_origem": "GPP",
+            "tabela_origem": "ArvoreCentro",
+            "select_origem": "",
+            "coluna_incremental": "",
+            "coluna_incremental_suplente": ""
+        },
+        "flg_ativo": true
+    }
+]
